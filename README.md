@@ -1,9 +1,9 @@
 # collatz FAST by genewitch
 ********************************************************************************
 	Genewitch's collatz conjecture algorithm.				                    
-	  starting from n (where numbers before n have already passed)		    
-    determine if the conjecture proves true for n.				            
-    this algorithm short circuits if it encounters a known value	    	
+		starting from n (where numbers before n have already passed)		    
+		determine if the conjecture proves true for n.				            
+		this algorithm short circuits if it encounters a known value	    	
 		while computing. IE with n = 6 it stops on step 2, which		            
 		is 3. (6, 3, 10, 5, 16, 8, 4, 2, 1) - because we KNOW that		            
 		3 passes. It also skips all even numbers before the loop.								                                    
