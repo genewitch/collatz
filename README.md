@@ -1,4 +1,5 @@
 # collatz FAST by genewitch
+Original readme:
 ********************************************************************************
 	Genewitch's collatz conjecture algorithm.				                    
 		starting from n (where numbers before n have already passed)		    
@@ -17,9 +18,15 @@
 		to finally act like a comic character.					                    
 ********************************************************************************
 
+##addendum readme:
 Requires emil.GMP and libgmp.
 
 You can pass a number on the command line (like from http://boinc.thesonntags.com/collatz/highest_steps.php)
 or you can touch a file called lastnumber.txt and put a number in there.
 
 output: step leaders go to mostcount.txt, last solved number is in lastnumber.txt, console displays some info every time the files are flushed.
+
+## special  notes:
+This software does not encounter the same "step count" difficulty as the BOINC software, so running through the highest stepcounts will not trigger on the same numbers listed on the above weblink. This software will correctly examine each number if started at the number 1, but since BOINC's numbers are crowdsourced and verified, you can start at the highest number listed and continue correctly. You can also test arbitrarily long numbers (up to about 20,000 digits or so verified in this release).
+
+Please submit a pull request if you edit this code to support 64bits, or an issue if you know of a better "big number" library.
