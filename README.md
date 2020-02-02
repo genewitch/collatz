@@ -1,4 +1,10 @@
 # collatz FAST by genewitch
+
+	Now in python3! Not sure if this is 64 bit capable. It produces the **exact same** 
+	output as the C# version, so it is usable as a benchmark to compare against
+	the windows version on other OSes.
+
+
 Original readme:
 ********************************************************************************
 	Genewitch's collatz conjecture algorithm.				                    
